@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha|Quicksand:400,700');
+
+.body {
+  background-color:#F7F8F9;
+  margin:0;
+}
+
+body { 
+    overflow-y: scroll; 
+    padding: 0; 
+    margin: 0; 
+    font-family:'Quicksand', sans-serif;
+    font-size: 18px;
+    background-color: #F7F8F9;
+    height: 2000px; 
+}
+
+h1 {
+    font-family:'Neucha', cursive;
+    font-size: 36px;
+    color: #F05638;
+}
+
+h2 {
+    font-family:'Neucha', cursive;
+    font-size: 20px; 
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+h3 {
+    font-family:'Neucha', cursive;
+    font-size: 25px; 
+    color: #F05638;
+}
+
+h4 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    color:#9B9B9B;
+}
+
+h5 {
+    font-family:'Quicksand', sans-serif, 700;
+    font-size: 15px;
+    color:black;
+}
+
+.nav { 
+    background-color: rgba(181, 207, 252, .10);
+    position: fixed; 
+    width:100%;
+    top: 0; 
+}
+
+#logo {
+    width: 180px; 
+    float: left;
+    padding-right: 200px;
+}
+
+#nav-wrapper { 
+    width: 100%; 
+    margin: 0 auto; 
+    display: inline-block;
+    padding: 30px;
+    background-color: #D9E4F7;
+}
+
+#nav ul { 
+    text-align: justify;
+    line-height:0;
+    margin: 0; 
+    padding-top: 20px;
+    width:80%;
+}
+
+#nav ul:after {
+    content: '';
+    display: inline-block;
+    width: 80%;
+}
+
+#nav ul li { 
+    display: inline-block; 
+    line-height:100%;
+    font-size:25px;
+}
+
+#nav ul li a { 
+    color:rgb(0, 0, 0);
+    display: block; 
+    padding: 15px; 
+    text-decoration: none; 
+}
+
+#shopping-cart {
+    position: absolute;
+    padding: 20px;
+    margin-left: 1200px;
+    margin-top: -115px;
+}
+
+/* Styling for general content div begins here */
+.breadcrumbs {
+    margin-left: 130px;
+    font-weight: 400;
+}
+
+/* About aka Index styling begins here */
+#main-image {
+    margin: 30px;
+    position: absolute;
+}
+
+#info-hours {
+    position: absolute;
+    top: 190px;
+    right: 116px;
+    line-height: 7px;
+}
+
+#hours-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+#info-locations {
+    position: absolute;
+    top: 380px;
+    right: 104px;
+    line-height: 7px;
+}
+
+#locations-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+#info-phoneno {
+    position: absolute;
+    top: 629px;
+    right: 64px;
+    line-height: 7px;
+}
+
+#phoneno-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.about-text{
+    position: absolute;
+    top: 760px;
+    left: 30px;
+    display: inline-block;
+}
+
+.first-square {
+    width: 490px;
+    float: left;
+    margin-left: 0px;
+    padding-right: 40px;
+}
+
+.second-square {
+    width: 490px;
+    float: right;
+}
+
+/* Menu page starts here */
+#menu-title {
+    margin-left: 130px;
+}
+
+#menu-description {
+    margin-left: 130px;
+    width: 300px;
+}
+
+#menu-detail {
+    position: absolute;
+    left: 560px;
+    top: 245px;
+}
+
+/* Shop page starts here */
+
+#shop-title {
+    margin-left: 130px;
+}
+
+#products-main {
+    margin-left: 90px;
+}
+#product-name {
+    margin-left: 130px;
+}
+
+#product-image {
+    margin-left: 130px;
+    width: 300px;
+    height: 500px;
+}
+
+#product-details {
+    position: absolute;
+    margin-left: 450px;
+    width: 400px;
+    margin-top: -525px;
+}
+
+#product-details-price {
+    position: absolute;
+    margin-left: 450px;
+    width: 400px;
+    margin-top: -300px;
+}
+
+/*add to cart section*/
+.add-to-cart {
+    margin-left: 20px;
+    margin-top: 290px;
+    display: inline-block;
+    position: absolute;
+}
+
+#product-type {
+    margin-left: 450px;
+    width: 400px;
+}
+
+/*for all select dropdowns*/
+select {
+    color: black;
+    background:#D9E4F7;
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    width: auto;
+}
+
+#flavors {
+    margin: 20px 20px 20px 0;
+    font-size: 13px;
+}
+
+.add-to-cart button {
+    background-color: #F05638;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+}
+
+/*Product detail page styling begins here*/
+
+#shoppingcart-header {
+    margin-left: 130px;
+}
+
+.shoppingcart-headings{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+
+#cart-container{
+    width:150px;
+    height:300px;
+    left:100px;
+}
+
+#item-image img {
+    width:50px;
+    height:50px;
+}
+
+#shopping-cart-update {
+    position: absolute;
+    padding: 20px;
+    margin-left: 1200px;
+    margin-top: -130;
+}
+
+#added-items {
+    position: absolute;
+    padding: 20px;
+    margin-left: 1200px;
+    margin-top: -65px;
+    font-family: 'Neucha', cursive;
+    font-size: 35px;
+    color: #F05638;
+}
+
+/* Shop page starts now */
+/* For the product offering page */
+ul.products li {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: auto;
+    padding: 0px 20px 20px 0px;
+}
+  
+ul.products a {
+    text-decoration: none;
+    color: #000;
+}
+  
+/* For the product offering text across the page */
+ul.products p {
+    display: block;
+    vertical-align: center;
+    text-align: left;
+}
+  
+ul.products img{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+  
+ul.products button{
+    background-color: #F05638;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+}
+
+/*shopping cart page styling begins here*/
+#shoppingcart-details ul {
+    width: 250px;
+    background: red;
+    padding: 0;
+    margin: 200px;
+    overflow: auto;
+}
+
+#shoppingcart-details li {
+    float: left;
+    margin-left:90px;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 700;
+}
+
+#quantity-cart {
+    position: absolute;
+    left: 450px;
+}
+
+#item-price-cart {
+    position: absolute;
+    left: 640px;
+}
+
+#totalprice-cart {
+    position: absolute;
+    left: 860px;
+}
+
+.new-item-block{
+    font-size: 14px;
+    color: gray;
+    padding: 0 240px;
+}
+
+.cartimages {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: -96px;
+    margin-top: 50px;
+}
+
+#productnamecart {
+    position: relative;
+    margin-left: 15px;
+    margin-top: -74px;
+}
+
+#ptypecart {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+#flavoronecart {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+#flavortwocart {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+#quantitycart {
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -73px;
+}
+
+#singlecostcart {
+    position: absolute;
+    margin-left: 512px;
+    margin-top: -73px;
+}
+
+#totalcostcart {
+    position: absolute;
+    margin-left: 715px;
+    margin-top: -73px;
+}
+
+.eraseitem {
+    position: absolute;
+    margin-left: -105px;
+    font-family:'Quicksand', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#browse-products {
+    position: fixed;
+    text-align: center;
+    top: 310px;
+    right: 59px;
+}
+
+#browse-products a {
+    text-decoration: none;
+    color: #F05638;
+}
+
+#line {
+    position: fixed;
+    right: 45px;
+    top: 300px;
+}
+
+#checkout {
+    background-color: #F05638;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    position: fixed;
+    right: 77px;
+    top: 211px;
+}

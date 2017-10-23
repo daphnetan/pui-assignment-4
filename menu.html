@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Bun Bun Bake Shop - Menu</title>
+    
+    <!--references style sheet--> 
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    
+    <!--references javascript and jquery--> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascript/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="nav"> <!--this is the navigation-->
+    <div id="nav-wrapper">
+        <div id="logo">
+            <img src="images/bunbunlogo.png" alt="Bun Bun Bake Shop">
+        </div>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+        <div id="shopping-cart"> <!--this is the shopping cart-->
+                <a href="shoppingcart.html"><img src="images/shoppingcart.png" alt="shopping cart"></a>
+        </div>
+    </div>
+</div>
+
+ <!--this is where all the content is-->
+<div class="content"> 
+    <!--breadcrumbs so visitors know where they are-->
+    <h4 class="breadcrumbs">Home > Menu</h4>
+    <h1 id="menu-title">Menu</h1>
+
+    <div id="menu-wrapper">
+    <!--Explanation about menu-->
+    <div id="menu-description">
+        <p>We pride ourselves in our classic creations but also seasonal flavors that swap in and out to keep things playfully tasty around here.</p>
+        <p>Come into our shop and pair our baked goods with coffee or tea. We promise it’s a match made in our ovens.</p>
+    </div>
+
+    <!--Menu-->
+    <div id="menu-detail">
+        <img src="images/menuitems.png">
+    </div>
+</div>
+</body>
+</html>

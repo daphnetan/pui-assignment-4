@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Bun Bun Bake Shop - Shopping Cart</title>
+    
+    <!--references style sheet--> 
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    
+    <!--references javascript and jquery--> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascript/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--navigation start here-->
+<div id="nav">
+    <div id="nav-wrapper">
+
+        <div id="logo">
+            <img src="images/bunbunlogo.png" alt="Bun Bun Bake Shop">
+        </div>
+
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+
+        <div id="shopping-cart">
+                <a href="shoppingcart.html"><img src="images/shoppingcart.png" alt="shopping cart"></a>
+        </div>
+
+        <div id="added-items">
+            <h3> </h3>
+        </div>
+
+    </div>
+</div>
+
+    <div class="content">
+        <!--Page title--> 
+        <div id="shoppingcart-header">
+                <h1>Your Shopping Cart</h1>
+        </div>
+            <!--Shopping Cart Details--> 
+            <ul id="shoppingcart-details">
+                <li id="chosenproduct-cart">Cart Items</li>
+                <li id="quantity-cart">Quantity</li>
+                <li id="item-price-cart">Item Price</li>
+                <li id="totalprice-cart">Total</li>
+            </ul>
+        
+        <!--where shopping cart items hang out-->
+        <div class="new-item-block"> </div>
+
+        <!--button to checkout-->
+        <button id="checkout">Checkout</button>
+
+        <img id="line" src="images/line.png">
+
+        <!--to head back to the shop page-->
+        <div id="browse-products">
+            <a id="browse-products" href="shop.html"> <!--div for browsing products-->
+                <p>Browse Products</p>
+                <img id="browse-image" src="images/browse-products.png">
+            </a>
+        </div>
+       
+    </div>
+
+</body>
